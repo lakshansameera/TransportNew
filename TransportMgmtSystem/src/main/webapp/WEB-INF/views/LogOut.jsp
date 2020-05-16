@@ -5,6 +5,12 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Insert title here</title>
+
+<% session.invalidate();
+RequestDispatcher view = request.getRequestDispatcher("index.jsp");
+view.forward(request, response);
+System.out.println("Logout");
+%>
 </head>
 <body>
 

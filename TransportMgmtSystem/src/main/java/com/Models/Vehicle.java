@@ -8,6 +8,14 @@ public class Vehicle {
 	private int availability;
 	
 	
+	
+	public Vehicle(String regNo, String type, int noOfPassengers, int availability) {
+		super();
+		this.regNo = regNo;
+		this.type = type;
+		this.noOfPassengers = noOfPassengers;
+		this.availability = availability;
+	}
 	public String getRegNo() {
 		return regNo;
 	}

@@ -27,14 +27,11 @@
         <a class="nav-link" href="#">Pricing</a>
     </ul>
     <span class="navbar-text">
-     <a href="./Login.jsp"> Log in</a> 
+     <a href="./Login.jsp"> Log in </a> 
     </span>
-    <%
-
-    %>
-    
+    <p>   |    </p>    
     <span class="navbar-text">
-     <a href="LogOut.jsp"> Log Out</a> 
+     <a href="./LogOut.jsp"> Log Out</a> 
     </span>
   </div>
 </nav>

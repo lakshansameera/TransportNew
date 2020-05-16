@@ -39,6 +39,7 @@ function check_login()
 <body>
 <div class="jumbotron col-sm-6" style="margin-top:150px; margin-right: auto; margin-left: auto;" onSubmit="return check_login()" >
 <form action="Login" method="Post" class="col-sm-6" style="margin:auto" onSubmit="return check_login()" name="frm_login" >
+<div align="center" style="color:#FF0000"><% if(request.getAttribute("msg")!=null) out.print(request.getAttribute("msg")); %></div><br/>
   <div class="form-group row">
     <label for="staticEmail" class="col-sm-4 col-form-label">Email</label>
     <div class="col-sm-8">
