@@ -19,7 +19,7 @@ public class user {
 
 	
 	public user(String name, String email, String address, String city, String contactNumber, String regNo,
-			int userType, int userStatus) {
+			int userType, int userStatus,String nic) {
 		super();
 		this.name = name;
 		this.email = email;
@@ -29,6 +29,7 @@ public class user {
 		this.regNo = regNo;
 		this.userType = userType;
 		this.userStatus = userStatus;
+		this.Nic=nic;
 	}
 
 

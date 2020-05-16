@@ -63,7 +63,13 @@ public class Login extends HttpServlet {
 				response.sendRedirect("index.jsp");
 				
 			}
-	
+		else
+		{
+			String test = "Invalid user name or password";
+			request.setAttribute("msg",test);
+			RequestDispatcher view = request.getRequestDispatcher("Login.jsp");
+			    view.forward(request, response); 
+		}
 	}
 
 }
