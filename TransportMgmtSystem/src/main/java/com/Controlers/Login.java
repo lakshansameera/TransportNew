@@ -60,7 +60,7 @@ public class Login extends HttpServlet {
 				System.out.print("ok");
 				//RequestDispatcher rs1 = request.getRequestDispatcher("HomeUser.jsp");
 				//rs1.forward(request, response);
-				response.sendRedirect("index.jsp");
+				response.sendRedirect("HomeUser.jsp");
 				
 			}
 		else

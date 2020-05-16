@@ -21,12 +21,12 @@ function check_login()
 {
 	if(this.document.frm_login.login_user.value=="")
 	{
-		alert("Please enter the user name.");
+		alert("Please enter the user name");
 		return false;
 	}
 	if(this.document.frm_login.login_password.value=="")
 	{
-		alert("Please enter the password.");
+		alert("Please enter the password");
 		return false;
 	}
 	return true;

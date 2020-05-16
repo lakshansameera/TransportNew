@@ -65,7 +65,7 @@ function check()
 <form action="Register" method="post" class="col-sm-8" onSubmit="return check()" name="frm_Reg" >
  <div class="form-group" >
     <label for="exampleFormControlInput1">NIC No</label>
-    <input type="email" class="form-control" id="exampleFormControlInput1" name="nic" placeholder="">
+    <input type="text" class="form-control" id="exampleFormControlInput1" name="nic" placeholder="">
   </div>	
 
   <div class="form-group" >

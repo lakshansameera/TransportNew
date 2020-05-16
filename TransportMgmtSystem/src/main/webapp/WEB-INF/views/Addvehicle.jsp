@@ -16,7 +16,7 @@
 <body>
 <h3 class="col-sm-4">Add Vehicle</h3>
 	
-<form action="../AddVehicle" method="post" class="col-sm-6">
+<form action="./AddVehicle" method="post" class="col-sm-6">
   <div class="form-group" >
     <label for="formGroupExampleInput">Registration Number</label>
     <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Input Vehicle Registration No" name="rejNo">
@@ -42,7 +42,7 @@
     </select>
   </div>
      <div class="form-group">
-     <input class="btn btn-primary col-sm-4" type="submit" value="Submit onclick="check()"> 
+     <input class="btn btn-primary col-sm-4" type="submit" value="Submit" onclick="check()"> 
      <input class="btn btn-primary col-sm-4" type="Reset" value="Reset">
      </div>
 </form>

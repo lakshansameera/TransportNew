@@ -1,6 +1,8 @@
 package com.Controlers;
 
 import java.io.IOException;
+
+import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -75,6 +77,10 @@ public class Register extends HttpServlet {
 		user us = new user(name,email,address,city,contactNumber,RejNo,res,1,nic);
 		userServices userservice = new userServices();
 		userservice.insertUser(us);
+		
+		
+		RequestDispatcher view = request.getRequestDispatcher("HomeUser.jsp");
+		view.forward(request, response);
 		//UserServices userservice = new UserServices();
 		//userservice.insertUser(us);
 	}
